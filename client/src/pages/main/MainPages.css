@@ -1,0 +1,29 @@
+html, body, #root, .App {
+    height: 100%;
+}
+
+*{
+    margin: 0;
+}
+
+.sessionContainer {
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+
+.sessionContainer li{
+ 
+    padding: 0px 0.625em;
+}
+
+
+#map{
+    width:40vw;
+    height:40vw;
+
+}
+

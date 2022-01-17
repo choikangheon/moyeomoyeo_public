@@ -1,0 +1,46 @@
+.Title{
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a333f;
+    padding : 1rem 0rem;
+}
+.Title li {
+    list-style: none;
+    padding : 1rem;
+}
+
+.Title .main_logo{
+    display: flex;
+}
+.Title .logo{
+    font-size: 2.5rem;
+    padding : 0rem 1rem;
+    color: #ff6e61;
+}
+
+.Title span{
+
+    font-size: 3rem;
+}
+
+.Title .Main_link{
+    text-decoration: none;
+    color: #efefef;
+}
+
+.Title .nav_link{
+    display: flex;
+    padding: 1rem;
+}
+
+.Title .nav_link :hover{
+    background-color: #ff6e61;
+    border-radius: 5px;
+}
+
+.Title .Main_login_Link{
+    text-decoration: none;
+    color: white;
+}

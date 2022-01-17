@@ -1,0 +1,89 @@
+html, body {
+
+    margin: 0;
+
+    height: 100%;
+
+    overflow: hidden;
+
+}
+
+
+.address_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 325px; left: 450px;
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    justify-content: center;
+}
+
+
+.pop-address{
+    text-align: center;
+}
+
+
+.address_header {
+    width: 42%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 3%;
+
+}
+
+.new_address {
+    padding-left: 20%;
+    color: skyblue;
+    cursor: pointer;
+}
+
+
+
+.popup-btn{
+
+
+    text-align: center;
+    clear: both;
+    position: relative;
+}
+.popup-btn{
+
+}
+.btn_group .btn_left{
+    left: 0;
+    float: none;
+    position: absolute;
+    z-index: 1;
+}
+.btn_group{
+ display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3%;
+}
+.address_container .line-plus:before{
+    content: "+";
+    cursor: pointer;
+    color: skyblue;
+}
+.popup-tit{
+    text-align: center;
+}
+.pop-table{
+    margin-left:auto;
+    margin-right:auto;
+    padding: 2rem;
+
+}
+
+.popup-btn{
+
+    margin: 40px;
+    text-align: center;
+
+}

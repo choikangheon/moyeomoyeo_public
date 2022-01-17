@@ -1,0 +1,9 @@
+insert
+
+insert into TEST (name,pw) values('test',CryptString.encrypt('1234','key'));
+
+decrypt
+
+SELECT name, CryptString.decrypt(pw,'key') pw
+FROM Test
+WHERE CryptString.decrypt(pw,'key') = '1234';

@@ -1,0 +1,38 @@
+
+.list_container {
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    border:1px solid;
+    border-right: 0px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: #2a333f;
+    color:white;
+}
+
+.list_container .list_button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2vh;
+    color: white;
+
+}
+.freindHeader{
+    margin-bottom: 5%;
+    text-align:center;
+}
+.myFreindsList{
+    margin-bottom: 5%;
+}
+.moyeobtn{
+    text-align: center;
+}
+.addbtn{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+

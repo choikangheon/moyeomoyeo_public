@@ -1,0 +1,107 @@
+2021-11-21 19:20:17.755  INFO 10376 --- [main] moyeomoyeo.MoyeomoyeoApplication         : Starting MoyeomoyeoApplication using Java 11.0.13 on DESKTOP-6TKVU8R with PID 10376 (C:\Users\최강헌\Desktop\개발\teamProject\moyeomoyeo\server\build\classes\java\main started by 최강헌 in C:\Users\최강헌\Desktop\개발\teamProject\moyeomoyeo)
+2021-11-21 19:20:17.757  INFO 10376 --- [main] moyeomoyeo.MoyeomoyeoApplication         : The following profiles are active: local
+2021-11-21 19:20:18.217  INFO 10376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-21 19:20:18.269  INFO 10376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2021-11-21 19:20:18.613  INFO 10376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-21 19:20:18.621  INFO 10376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-21 19:20:18.621  INFO 10376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-21 19:20:18.697  INFO 10376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-21 19:20:18.697  INFO 10376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 911 ms
+2021-11-21 19:20:18.856  INFO 10376 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-21 19:20:18.891  INFO 10376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-21 19:20:18.981  INFO 10376 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-21 19:20:19.063  INFO 10376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-21 19:20:19.739  INFO 10376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-21 19:20:19.749  INFO 10376 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-11-21 19:20:20.627  INFO 10376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-21 19:20:20.635  INFO 10376 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-21 19:20:20.998  INFO 10376 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67b20b4c, org.springframework.security.web.context.SecurityContextPersistenceFilter@42257df7, org.springframework.security.web.header.HeaderWriterFilter@58be583e, org.springframework.web.filter.CorsFilter@5261ec9, org.springframework.security.web.authentication.logout.LogoutFilter@5d10df04, moyeomoyeo.jwt.JwtAuthenticationFilter@7bbe532b, moyeomoyeo.jwt.JwtAuthorizationFilter@3e0a112f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bd79444, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75d95b67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@abe7d36, org.springframework.security.web.session.SessionManagementFilter@401002ce, org.springframework.security.web.access.ExceptionTranslationFilter@123e9094, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f5a092e]
+2021-11-21 19:20:21.231  INFO 10376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-21 19:20:21.238  INFO 10376 --- [main] moyeomoyeo.MoyeomoyeoApplication         : Started MoyeomoyeoApplication in 3.798 seconds (JVM running for 4.459)
+2021-11-21 19:20:29.129  INFO 10376 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-21 19:20:29.129  INFO 10376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-21 19:20:29.130  INFO 10376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-21 19:21:06.100  INFO 10376 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-21 19:21:06.102  INFO 10376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-21 19:21:06.148  INFO 10376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-21 19:21:08.284  INFO 12584 --- [main] moyeomoyeo.MoyeomoyeoApplication         : Starting MoyeomoyeoApplication using Java 11.0.13 on DESKTOP-6TKVU8R with PID 12584 (C:\Users\최강헌\Desktop\개발\teamProject\moyeomoyeo\server\build\classes\java\main started by 최강헌 in C:\Users\최강헌\Desktop\개발\teamProject\moyeomoyeo)
+2021-11-21 19:21:08.286  INFO 12584 --- [main] moyeomoyeo.MoyeomoyeoApplication         : The following profiles are active: local
+2021-11-21 19:21:08.759  INFO 12584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-21 19:21:08.810  INFO 12584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2021-11-21 19:21:09.159  INFO 12584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-21 19:21:09.166  INFO 12584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-21 19:21:09.167  INFO 12584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-21 19:21:09.253  INFO 12584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-21 19:21:09.253  INFO 12584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 938 ms
+2021-11-21 19:21:09.409  INFO 12584 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-21 19:21:09.444  INFO 12584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-21 19:21:09.540  INFO 12584 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-21 19:21:09.618  INFO 12584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-21 19:21:10.313  INFO 12584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-21 19:21:10.324  INFO 12584 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-11-21 19:21:11.292  INFO 12584 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-21 19:21:11.301  INFO 12584 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-21 19:21:11.680  INFO 12584 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4889fbba, org.springframework.security.web.context.SecurityContextPersistenceFilter@4154ecd3, org.springframework.security.web.header.HeaderWriterFilter@75d95b67, org.springframework.web.filter.CorsFilter@580fd26b, org.springframework.security.web.authentication.logout.LogoutFilter@60688a97, moyeomoyeo.jwt.JwtAuthenticationFilter@6018d82c, moyeomoyeo.jwt.JwtAuthorizationFilter@572db5ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a666c8e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75c3584e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36f80ceb, org.springframework.security.web.session.SessionManagementFilter@72ea6fcb, org.springframework.security.web.access.ExceptionTranslationFilter@3dc4ed6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1165a952]
+2021-11-21 19:21:11.905  INFO 12584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-21 19:21:11.912  INFO 12584 --- [main] moyeomoyeo.MoyeomoyeoApplication         : Started MoyeomoyeoApplication in 3.972 seconds (JVM running for 4.648)
+2021-11-21 19:21:12.618  INFO 12584 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-21 19:21:12.619  INFO 12584 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-21 19:21:12.619  INFO 12584 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-11-21 19:22:46.251  INFO 12584 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-21 19:22:46.252  INFO 12584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-21 19:22:46.296  INFO 12584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-21 19:22:48.363  INFO 10792 --- [main] moyeomoyeo.MoyeomoyeoApplication         : Starting MoyeomoyeoApplication using Java 11.0.13 on DESKTOP-6TKVU8R with PID 10792 (C:\Users\최강헌\Desktop\개발\teamProject\moyeomoyeo\server\build\classes\java\main started by 최강헌 in C:\Users\최강헌\Desktop\개발\teamProject\moyeomoyeo)
+2021-11-21 19:22:48.365  INFO 10792 --- [main] moyeomoyeo.MoyeomoyeoApplication         : The following profiles are active: local
+2021-11-21 19:22:48.831  INFO 10792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-21 19:22:48.881  INFO 10792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2021-11-21 19:22:49.216  INFO 10792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-21 19:22:49.225  INFO 10792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-21 19:22:49.226  INFO 10792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-21 19:22:49.305  INFO 10792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-21 19:22:49.305  INFO 10792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 911 ms
+2021-11-21 19:22:49.457  INFO 10792 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-21 19:22:49.492  INFO 10792 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-21 19:22:49.594  INFO 10792 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-21 19:22:49.671  INFO 10792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-21 19:22:50.349  INFO 10792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-21 19:22:50.361  INFO 10792 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-11-21 19:22:51.240  INFO 10792 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-21 19:22:51.248  INFO 10792 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-21 19:22:51.622  INFO 10792 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a5b394, org.springframework.security.web.context.SecurityContextPersistenceFilter@40f15786, org.springframework.security.web.header.HeaderWriterFilter@2823b7c5, org.springframework.web.filter.CorsFilter@2b916808, org.springframework.security.web.authentication.logout.LogoutFilter@13cae908, moyeomoyeo.jwt.JwtAuthenticationFilter@6c9b6332, moyeomoyeo.jwt.JwtAuthorizationFilter@384b3fe7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ee9920a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@209b4b35, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4889fbba, org.springframework.security.web.session.SessionManagementFilter@6f6c6c70, org.springframework.security.web.access.ExceptionTranslationFilter@4b4bc73d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@740fccd2]
+2021-11-21 19:22:51.848  INFO 10792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-21 19:22:51.855  INFO 10792 --- [main] moyeomoyeo.MoyeomoyeoApplication         : Started MoyeomoyeoApplication in 3.812 seconds (JVM running for 4.478)
+2021-11-21 19:22:53.910  INFO 10792 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-21 19:22:53.911  INFO 10792 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-21 19:22:53.911  INFO 10792 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-11-21 19:22:54.125 DEBUG 10792 --- [http-nio-8080-exec-2] moyeomoyeo.controller.FriendController   : plz
+2021-11-21 19:22:54.126 DEBUG 10792 --- [http-nio-8080-exec-2] moyeomoyeo.controller.FriendController   : 최강헌
+2021-11-21 19:22:54.126 DEBUG 10792 --- [http-nio-8080-exec-2] moyeomoyeo.controller.FriendController   : plz22
+2021-11-21 19:22:54.126 DEBUG 10792 --- [http-nio-8080-exec-2] moyeomoyeo.controller.FriendController   : kangheon
+2021-11-21 19:22:54.126 DEBUG 10792 --- [http-nio-8080-exec-2] moyeomoyeo.controller.FriendController   : hello
+2021-11-21 19:22:54.126 DEBUG 10792 --- [http-nio-8080-exec-2] moyeomoyeo.controller.FriendController   : kangh
+2021-11-21 19:58:22.280  INFO 10792 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-21 19:58:22.282  INFO 10792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-21 19:58:22.331  INFO 10792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-21 19:58:24.485  INFO 20496 --- [main] moyeomoyeo.MoyeomoyeoApplication         : Starting MoyeomoyeoApplication using Java 11.0.13 on DESKTOP-6TKVU8R with PID 20496 (C:\Users\최강헌\Desktop\개발\teamProject\moyeomoyeo\server\build\classes\java\main started by 최강헌 in C:\Users\최강헌\Desktop\개발\teamProject\moyeomoyeo)
+2021-11-21 19:58:24.487  INFO 20496 --- [main] moyeomoyeo.MoyeomoyeoApplication         : The following profiles are active: local
+2021-11-21 19:58:24.969  INFO 20496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-21 19:58:25.022  INFO 20496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2021-11-21 19:58:25.362  INFO 20496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-21 19:58:25.369  INFO 20496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-21 19:58:25.369  INFO 20496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-21 19:58:25.446  INFO 20496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-21 19:58:25.446  INFO 20496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 926 ms
+2021-11-21 19:58:25.595  INFO 20496 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-21 19:58:25.630  INFO 20496 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-21 19:58:25.723  INFO 20496 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-21 19:58:25.798  INFO 20496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-21 19:58:26.527  INFO 20496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-21 19:58:26.538  INFO 20496 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-11-21 19:58:27.615  INFO 20496 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-21 19:58:27.623  INFO 20496 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-21 19:58:28.003  INFO 20496 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d6d81c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cd2e348, org.springframework.security.web.header.HeaderWriterFilter@ff1a5a0, org.springframework.web.filter.CorsFilter@c889805, org.springframework.security.web.authentication.logout.LogoutFilter@6a9ac8b, moyeomoyeo.jwt.JwtAuthenticationFilter@7c59cf66, moyeomoyeo.jwt.JwtAuthorizationFilter@6bb71265, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27aa7294, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c46a957, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37816ea6, org.springframework.security.web.session.SessionManagementFilter@f7b7720, org.springframework.security.web.access.ExceptionTranslationFilter@49f9758, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b8599c7]
+2021-11-21 19:58:28.227  INFO 20496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-21 19:58:28.234  INFO 20496 --- [main] moyeomoyeo.MoyeomoyeoApplication         : Started MoyeomoyeoApplication in 4.069 seconds (JVM running for 4.767)
+2021-11-21 20:10:51.533  INFO 20496 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-21 20:10:51.535  INFO 20496 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-21 20:10:51.581  INFO 20496 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

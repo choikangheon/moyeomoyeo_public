@@ -1,0 +1,81 @@
+
+.Main_place_container{
+    display: flex;
+
+}
+
+
+
+.Main_place_List{
+
+    background-color: wheat;
+    color: black;
+
+    border-radius-bottomright: 30px;
+    border-radius-topright: 30px;
+}
+
+.place_head{
+
+}
+
+.search_title{
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+}
+.Main_place_List{
+    width: 15vw;
+}
+
+.place_list{
+padding: 5%;
+}
+
+.place_list :hover{
+background-color: orange;
+}
+.Main_place_navLink li{
+    border: none;
+    list-style: none;
+    padding: 0.7rem;
+   color: black;
+   
+}
+
+
+.Main_place_navLink li:nth-child(1) {
+    background-color: rgb(251, 160, 160);
+  }
+.Main_place_navLink li:nth-child(2) {
+    background-color: rgb(245, 208, 140);
+  }
+  .Main_place_navLink li:nth-child(3) {
+    background-color: rgb(243, 243, 135);
+  }
+
+  .Main_place_navLink li:nth-child(4) {
+    background-color: rgb(134, 241, 134);
+  }
+
+  .Main_place_navLink li:nth-child(5) {
+    background-color: rgb(167, 167, 252);
+  }
+
+  .Main_place_navLink li:nth-child(6) {
+    background-color: rgb(250, 172, 250);
+  }
+
+
+.Main_place_navLink li:hover{
+    background: #f1efee;
+}
+
+.Main_place_List h1{
+    text-align: center;
+
+
+
+}
+
